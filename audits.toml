@@ -16,6 +16,11 @@ who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
 criteria = "safe-to-deploy"
 delta = "2.9.0 -> 2.9.1"
 
+[[audits.chromiumoxide_types]]
+who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+version = "0.7.0"
+
 [[audits.icu_collections]]
 who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
 criteria = "safe-to-deploy"
