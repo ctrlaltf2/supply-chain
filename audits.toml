@@ -80,7 +80,7 @@ end = "2026-05-23"
 
 [[trusted.cc]]
 criteria = "safe-to-deploy"
-user-id = 2915
+user-id = 2915 # Amanieu d'Antras (Amanieu)
 start = "2024-02-20"
 end = "2026-05-23"
 
@@ -90,9 +90,15 @@ user-id = 6825 # Dan Gohman (sunfishcode)
 start = "2023-08-29"
 end = "2026-05-23"
 
+[[trusted.filetime]]
+criteria = "safe-to-deploy"
+user-id = 1 # Alex Crichton (alexcrichton)
+start = "2019-04-23"
+end = "2026-05-24"
+
 [[trusted.hashbrown]]
 criteria = "safe-to-deploy"
-user-id = 2915
+user-id = 2915 # Amanieu d'Antras (Amanieu)
 start = "2019-04-02"
 end = "2026-05-23"
 
@@ -144,6 +150,18 @@ user-id = 189 # Andrew Gallant (BurntSushi)
 start = "2025-03-06"
 end = "2026-05-23"
 
+[[trusted.jiff-tzdb]]
+criteria = "safe-to-deploy"
+user-id = 189 # Andrew Gallant (BurntSushi)
+start = "2024-07-09"
+end = "2026-05-24"
+
+[[trusted.jiff-tzdb-platform]]
+criteria = "safe-to-deploy"
+user-id = 189 # Andrew Gallant (BurntSushi)
+start = "2024-07-09"
+end = "2026-05-24"
+
 [[trusted.js-sys]]
 criteria = "safe-to-deploy"
 user-id = 1 # Alex Crichton (alexcrichton)
@@ -158,7 +176,7 @@ end = "2026-05-23"
 
 [[trusted.libm]]
 criteria = "safe-to-deploy"
-user-id = 2915
+user-id = 2915 # Amanieu d'Antras (Amanieu)
 start = "2022-02-06"
 end = "2026-05-23"
 
@@ -167,6 +185,12 @@ criteria = "safe-to-deploy"
 user-id = 6825 # Dan Gohman (sunfishcode)
 start = "2021-06-12"
 end = "2026-05-23"
+
+[[trusted.lock_api]]
+criteria = "safe-to-deploy"
+user-id = 2915 # Amanieu d'Antras (Amanieu)
+start = "2019-05-04"
+end = "2026-05-24"
 
 [[trusted.memchr]]
 criteria = "safe-to-deploy"
@@ -185,6 +209,18 @@ criteria = "safe-to-deploy"
 user-id = 10
 start = "2019-05-15"
 end = "2026-05-23"
+
+[[trusted.parking_lot]]
+criteria = "safe-to-deploy"
+user-id = 2915 # Amanieu d'Antras (Amanieu)
+start = "2019-05-04"
+end = "2026-05-24"
+
+[[trusted.parking_lot_core]]
+criteria = "safe-to-deploy"
+user-id = 2915 # Amanieu d'Antras (Amanieu)
+start = "2019-05-04"
+end = "2026-05-24"
 
 [[trusted.proc-macro2]]
 criteria = "safe-to-deploy"
@@ -282,6 +318,12 @@ user-id = 6741 # Alice Ryhl (Darksonn)
 start = "2020-12-25"
 end = "2026-05-23"
 
+[[trusted.tokio-macros]]
+criteria = "safe-to-deploy"
+user-id = 6741 # Alice Ryhl (Darksonn)
+start = "2020-10-26"
+end = "2026-05-24"
+
 [[trusted.toml_edit]]
 criteria = "safe-to-deploy"
 user-id = 6743 # Ed Page (epage)
@@ -359,6 +401,18 @@ criteria = "safe-to-deploy"
 user-id = 64539 # Kenny Kerr (kennykerr)
 start = "2021-11-15"
 end = "2026-05-23"
+
+[[trusted.windows-implement]]
+criteria = "safe-to-deploy"
+user-id = 64539 # Kenny Kerr (kennykerr)
+start = "2022-01-27"
+end = "2026-05-24"
+
+[[trusted.windows-interface]]
+criteria = "safe-to-deploy"
+user-id = 64539 # Kenny Kerr (kennykerr)
+start = "2022-02-18"
+end = "2026-05-24"
 
 [[trusted.windows-registry]]
 criteria = "safe-to-deploy"
