@@ -21,6 +21,11 @@ who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
 criteria = "safe-to-deploy"
 delta = "2.0.0-beta2 -> 2.0.0"
 
+[[audits.ptr_meta_derive]]
+who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+version = "0.1.4"
+
 [[audits.rust_decimal]]
 who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
 criteria = "safe-to-deploy"
