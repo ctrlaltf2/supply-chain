@@ -21,6 +21,11 @@ who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
 criteria = "safe-to-deploy"
 version = "0.7.0"
 
+[[audits.fast_html2md]]
+who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+version = "0.0.48"
+
 [[audits.icu_collections]]
 who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
 criteria = "safe-to-deploy"
