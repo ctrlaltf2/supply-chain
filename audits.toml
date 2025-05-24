@@ -41,6 +41,11 @@ who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
 criteria = "safe-to-deploy"
 delta = "1.37.0 -> 1.37.1"
 
+[[audits.rustls]]
+who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "0.21.6 -> 0.23.27"
+
 [[audits.zerocopy-derive]]
 who = "ctrlaltf2 <23644849+ctrlaltf2@users.noreply.github.com>"
 criteria = "safe-to-deploy"
